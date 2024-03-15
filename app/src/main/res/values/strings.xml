@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="hello_kim">Hello, Kim!</string>
+    <string name="continue_to">Continue to</string>
+    <string name="mobile_dev_course">Mobile Dev.Course</string>
+    <string name="_65_complete">65% Complete</string>
+    <string name="popular_course">Popular Course</string>
+    <string name="see_all">see All</string>
+    <string name="search">search...</string>
+</resources>

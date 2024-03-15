@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">homework</string>
+    <string name="hello_kim">សួរស្តី, គីម!</string>
+    <string name="continue_to">បន្តទៅកាន់វគ្គសិក្សា</string>
+    <string name="mobile_dev_course">ការអភិវឌ្ឃន៍កម្មវិធី នៅលើទូរស័ព្ទ</string>
+    <string name="_65_complete">65% បានបញ្ចប់</string>
+    <string name="popular_course">វគ្គសិក្សាពេញនិយម</string>
+    <string name="see_all">មើលទាំងអស់</string>
+    <string name="search">ស្វែងរក...</string>
+</resources>
