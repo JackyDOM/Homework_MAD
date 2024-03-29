@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/containerOfProfile"
+        android:background="@color/darkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:id="@+id/imageProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kimsong Sao"
+            android:textColor="@color/white"
+            android:layout_below="@+id/imageProfile"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/containerOfProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/major"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Major"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"/>
+
+            <Space
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT Engineering"
+                android:textSize="27sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Gender"
+            android:layout_below="@+id/major"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"/>
+
+            <Space
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="27sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/Gender"
+            android:id="@+id/DoB"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DoB"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"/>
+
+            <Space
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01-Jan-1990"
+                android:textSize="27sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PoB"
+            android:layout_below="@+id/DoB"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PoB"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"/>
+
+            <Space
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phnom Penh"
+                android:textSize="27sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/PoB"
+            android:id="@+id/email"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"/>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sao.Kimsong@rupp.edu.kh"
+                android:textSize="23sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/email"
+            android:id="@+id/address"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"/>
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#123, st.01, Phnom Penh"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
