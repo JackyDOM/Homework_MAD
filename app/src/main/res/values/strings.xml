@@ -7,4 +7,9 @@
     <string name="popular_course">Popular Course</string>
     <string name="see_all">see All</string>
     <string name="search">search...</string>
+    <string name="home">Home</string>
+    <string name="province">Province</string>
+    <string name="Search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -8,4 +8,7 @@
     <string name="popular_course">វគ្គសិក្សាពេញនិយម</string>
     <string name="see_all">មើលទាំងអស់</string>
     <string name="search">ស្វែងរក...</string>
+    <string name="home">Home</string>
+    <string name="province">Province</string>
+    <string name="Search">Search</string>
 </resources>
